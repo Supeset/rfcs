@@ -3,36 +3,23 @@
 - RFC PR: (leave this empty, to be filled in later)
 - Authors: Lanseria
 
-# Introduction 项目介绍
+# Features 功能
 
 ## Summary 摘要
 
-<!-- One-paragraph explanation of the feature. -->
-<!-- 功能的一小段说明 -->
+具体功能实现
 
 ## Motivation 动机
 
-<!-- Why are we doing this? What use cases does it support? What is the expected outcome? -->
-<!-- 我们为什么这样做呢？它支持哪些用例？期望什么结果？ -->
+为了更好的实现基础功能，慢慢来
 
 ## Detailed Design 详细设计
 
-<!--
-   This is the bulk of the RFC.
-
-   Explain the design with enough detail that someone familiar with Superset
-   can implement it by reading this document. Please get into specifics
-   of your approach, corner cases, and examples of how the change will be
-   used. Be sure to define any new terms in this section.
--->
-<!--
-    这是 RFC 的大部分。
-
-    向设计人员介绍足够的细节，
-    以使他们熟悉 Superset 可以通过阅读本文档来实现。
-    请具体说明您的方法，关键案例以及如何进行更改的示例用过的。
-    确保在本节中定义任何新术语。
--->
+- 登录模块
+- 用户管理模块
+- 菜单管理模块
+- 动态路由模块
+- 权限角色模块
 
 ## Documentation 文献资料
 

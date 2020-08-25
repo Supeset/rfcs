@@ -3,36 +3,22 @@
 - RFC PR: (leave this empty, to be filled in later)
 - Authors: Lanseria
 
-# Features 功能
+# Introduction 项目介绍
 
 ## Summary 摘要
 
-<!-- One-paragraph explanation of the feature. -->
-<!-- 功能的一小段说明 -->
+此项目为中台系统性项目。
 
 ## Motivation 动机
 
-<!-- Why are we doing this? What use cases does it support? What is the expected outcome? -->
-<!-- 我们为什么这样做呢？它支持哪些用例？期望什么结果？ -->
+为了更好的去快速搭建一些系统性的网站性管理工具。
 
 ## Detailed Design 详细设计
 
-<!--
-   This is the bulk of the RFC.
-
-   Explain the design with enough detail that someone familiar with Superset
-   can implement it by reading this document. Please get into specifics
-   of your approach, corner cases, and examples of how the change will be
-   used. Be sure to define any new terms in this section.
--->
-<!--
-    这是 RFC 的大部分。
-
-    向设计人员介绍足够的细节，
-    以使他们熟悉 Superset 可以通过阅读本文档来实现。
-    请具体说明您的方法，关键案例以及如何进行更改的示例用过的。
-    确保在本节中定义任何新术语。
--->
+- 基于 Vue 与 Nestjs 搭建
+- 扩展性强并且使用 Pg 数据库
+- 拥有 Redis 缓存
+- 拥有 消息队列
 
 ## Documentation 文献资料
 
