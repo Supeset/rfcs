@@ -1,37 +1,26 @@
 - Repo: (the repo it will be implemented in, e.g. Superset/espree)
-- Start Date: 2020-08-28
+- Start Date: 2020-08-27
 - RFC PR: (leave this empty, to be filled in later)
 - Authors: Lanseria
 
-# 接口设计
+# 用户模块
 
 ## Summary 摘要
 
-基本接口设计
+此 RFCS 讨论用户模块构想
 
 ## Motivation 动机
 
-总结与概况接口规范
+用户模块构想完成以下几点
+
+- 用户通过已保存的 token 获取自身信息
+- 已经登录的用户可以随时访问自己的信息
 
 ## Detailed Design 详细设计
 
-### 使用 [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) 的后端注意事项
+### 接口设计
 
-如果后端要在与前端不同的主机/端口上运行，请确保也处理 `OPTIONS` 并返回正确的 `Access-Control-Allow-Origin` 和 `Access-Control-Allow-Header` （例如 `Content-Type` ）。
-
-#### 认证头 Authentication Header:
-
-`Authorization: Token jwt.token.here`
-
-### R 接口
-
-```JSON
-{
-  "code":0,
-  "data":null,
-  "message":"调用成功"
-}
-```
+[用户接口设计详情](./Interface.md)
 
 ## Documentation 文献资料
 

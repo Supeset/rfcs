@@ -40,7 +40,7 @@ Example request body:
 
 ```JSON
 {
- "username": "supeset",
+  "username": "supeset",
   "password": "supeset"
 }
 ```
@@ -68,6 +68,8 @@ Required fields: `username`, `password`
 
 ## 维持登录 RefreshToken
 
+`POST /api/token/refresh`
+
 Example request body:
 
 ```JSON
@@ -76,6 +78,6 @@ Example request body:
 }
 ```
 
-No authentication required, returns a [TokenResponse](#tokenresponse-for-authentication)
+Authentication required, returns a [TokenResponse](#tokenresponse-for-authentication)
 
 Required fields: `refreshToken`
